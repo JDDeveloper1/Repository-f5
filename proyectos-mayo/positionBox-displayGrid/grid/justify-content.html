@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .space-evenly {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 50px 50px 50px;
+            /*Make the grid smaller than the container*/
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .space-evenly>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+.space-around {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #f32156;
+  padding: 10px;
+}
+
+.space-around> div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.space-between {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #21f32c;
+  padding: 10px;
+}
+
+.space-between > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-center {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #f0f321;
+  padding: 10px;
+}
+
+.grid-center > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-star {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #070707;
+  padding: 10px;
+}
+
+.grid-star > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-end {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #94999e;
+  padding: 10px;
+}
+
+.grid-end> div {
+  background-color: rgba(43, 39, 39, 0.8);
+  text-align: center;
+  color: #2196F3;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>The justify-content Property</h1>
+
+    <p>utiliza <em>justify-content</em> propiedad para alinear la cuadrícula dentro del contenedor.</p>
+
+    <p>El valor "space-evenly" dará a las columnas la misma cantidad de espacio entre ellas y alrededor de ellas::</p>
+
+    <div class="space-evenly">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+<p>The value "space-around" dará a las columnas la misma cantidad de espacio alrededor de ellas:</p>
+
+<div class="space-around">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+
+<p>el valor "space-between" dará a las columnas la misma cantidad de espacio entre ellas</p>
+
+<div class="space-between">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+<p>el valor "center" lineará la cuadrícula en el medio del contenedor:</p>
+
+<div class="grid-center">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+
+<p>el valor "start" alineará la cuadrícula al comienzo del contenedor:</p>
+
+<div class="grid-star">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+
+<p>el valor "end" alinera la cuadrucula al final del contenedor:</p>
+
+<div class="grid-end">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+
+</body>
+
+</html>
